@@ -4,10 +4,11 @@
 **AZ Problem Tracker** is a custom-built Chrome extension designed to help students easily bookmark and manage coding problems on maang.in website. It simplifies the learning process by allowing users to track their problem-solving progress directly within the browser.
 
 This project is a practical introduction to Chrome extension development, covering core concepts such as:
-   ->manifest.json configuration.
-   ->Working with Chrome Storage APIs.
-   ->Injecting and managing content scripts.
-   ->DOM manipulation and event handling.
+→ manifest.json configuration  
+→ Working with Chrome Storage APIs  
+→ Injecting and managing content scripts  
+→ DOM manipulation and event handling
+
 
 ->With this extension, users can:   
     Bookmark problems for later review.  
