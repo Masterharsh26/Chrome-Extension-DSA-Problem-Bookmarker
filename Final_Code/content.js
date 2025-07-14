@@ -13,7 +13,7 @@ function onProblemsPage(){
     return window.location.pathname.startsWith('/problems/');
 }
 
-function addBookMarkButton(){
+function addBookmarkButton(){
      console.log("Trigerring");
     if(!onProblemsPage() || document.getElementById("add-bookmark-button")) return;
 
@@ -21,7 +21,7 @@ function addBookMarkButton(){
     bookmarkButton.id = "add-bookmark-button";
     bookmarkButton.src =  bookmarkImgURL;
     bookmarkButton.style.height="30px";
-    bookmarkButton.style.weidth="30px";
+    bookmarkButton.style.width="30px";
 
    const addTitle = document.getElementsByClassName("coding_problem_info_heading__G9ueL")[0];
 
