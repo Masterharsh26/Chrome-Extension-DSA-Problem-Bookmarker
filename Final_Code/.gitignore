@@ -1,0 +1,78 @@
+#---------------------
+# OS-specific
+#---------------------
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+#---------------------
+# VS Code
+#---------------------
+.vscode/         # VS Code settings folder
+.history/        # VS Code extension: Local History
+
+#---------------------
+# Logs and temp files
+#---------------------
+*.log
+*.tmp
+*.bak
+*.swp
+
+#---------------------
+# Build output
+#---------------------
+dist/
+build/
+out/
+bin/
+obj/
+
+#---------------------
+# Environment variables
+#---------------------
+.env
+.env.local
+
+#---------------------
+# Dependency folders
+#---------------------
+node_modules/
+venv/
+.venv/
+
+#---------------------
+# Test coverage
+#---------------------
+coverage/
+*.lcov
+*.cover
+
+#---------------------
+# IDE/Editor specific
+#---------------------
+.idea/           # JetBrains IDEs
+*.suo
+*.user
+*.sln
+*.njsproj
+*.vcxproj*
+
+#---------------------
+# Archives & packaging
+#---------------------
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+#---------------------
+# Lock files (optional)
+#---------------------
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
